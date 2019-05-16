@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 	<head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="./css/polariod_style.css">
@@ -7,46 +9,39 @@
 	</head>
 	<body>
 		<header class="main-title">
-			<h1>
-				Polariod Photo
-				<img src="./images/polariod-camera.jpg">
-			</h1>
-			<h2>
-				The Internet's <strong>only original</strong> polariod collage!
-				<img src="./images/memories.png">
-			</h2>
+			<h1>Polariod Photo</h1>
+			<h2>The Internet's <strong>only original</strong> polariod collage!</h2>
 		</header>
 		
-		<nav>
-			<ul>
-			<li>
-				<a href="#Home" class="navbar">Home</a>
-				<img src="./images/home-picture.png" alt="home">
+		<!--Navigation Bar for Front Page-->
+		<nav class="navbar"> 
+			<ul class="navbar"> 
+			<li class="sub-navbar">
+				<a href="#Home">Home</a>
 			</li>
-			<li>
-				<a href="#Sports" class="navbar">Home</a>
-				<img src="./images/sports-picture.jpg">
+			<li class="sub-navbar">
+				<a href="#Sports" class="navbar">Sports</a>
 			</li>
-			<li>
+			<li class="sub-navbar">
 				<a href="#Space" class="navbar">Space</a>
-				<img src="./images/space-photo.jpg">
 			</li>
-			<li>
+			<li class="sub-navbar">
 				<a href="#Wildlife" class="navbar">Wildlife</a>
-				<img src="./images/wildlife-photo.jpg">
 			</li>
-			<li>
+			<li class="sub-navbar">
 				<a href="#Plants" class="navbar">Plants</a>
-				<img src="./images/plant-photo.jpg">
 			</li>
-			<li>
+			<li class="sub-navbar">
 				<a href="#History" class="navbar">History</a>
-				<img src="./images/history-picture.jpg">
 			</li>
 			</ul>
 		</nav>
+		<!-- END of NAV -->
+		<br>
 		<hr>
-		<main>
+		
+		<!-- Main porition of front page to provide explanation for user -->
+		<main> 
 			<p>
 				Polaroid Photo is the <em>original</em> online polaroid database where you can view polaroid photos and upload your own polaroid photos.  
 				<strong>Build your own collage today!</strong>
@@ -55,38 +50,81 @@
 				To be able to view through the polaroid collection,&nbsp;<em>please create an account</em>.
 			</p>
 		</main>
+		<!-- END of MAIN -->
+		
+		<!--Form for signing up for an account -->
 		<form id="account" action="" method="post">
 			<label for="firstName">First Name</label>
-			<input name="firstName" id="fnBox" type="text" required/>
+			 <br>
+			 <br>
+			<input class="space" name="firstName" id="fnBox" type="text" required/>
+			 <br>
+			 <br>
 			<label for="lastName">Last Name</label>
-			<input for="lastName" id="lnBox" type="text" required/>
+			 <br>
+			 <br>
+			<input class="space" for="lastName" id="lnBox" type="text" required/>
+			 <br>
+			 <br>
 			<label for="email">E-mail</label>
-			<input for"email" id="emailBox" type="email" required/>
-            <p><input value="create account" type="submit"/></p>			
+			 <br>
+			 <br>
+			<input class="space" for"email" id="emailBox" type="text" required/>
+			 <br>
+             <br>			 
+            <input value="create account" type="submit"/>			
 		</form>
-		<aside>
+		<!-- END of FORM -->
+		
 			<blockquote class="quotes">
 				The days, months, and years eventually reveal, like a Polaroid, a clear picture of how significant events and decisions ultimately shape our lives. 
 				<em>~Hoda Kotb, American Journalist~</em>
 			</blockquote>
-			<div>
-				<div>
-				<img src="./images/polariod-castle.jpg" alt="">
+			<br>
+		<div class="container">
+			<div class="sub-container">
+				<div class="photo">
+				<img src="./images/polariod-castle.jpg" alt="" width=200 height=200>
 				</div>
 			</div>
-			<div>
-				<div>
-					<img src="./images/polariod-Dennis-Hopper-.jpg" alt="">
+			<div class="sub-container">
+				<div class="photo">
+					<img src="./images/polariod-Dennis-Hopper-.jpg" alt=""width=200 height=200>
 				</div>
 			</div>
-			<div>
-				<div>
-					<img src="./images/polariod-beach.jpg" alt="">
+			<div class="sub-container">
+				<div class="photo">
+					<img src="./images/polariod-beach.jpg" alt=""width=200 height=200>
 				</div>
 			</div>
-		</aside>
+			<div class="sub-container">
+				<div class="photo">
+					<img src="./images/history-picture.jpg" alt=""width=200 height=200>
+				</div>
+			</div>
+            <div class="sub-container">
+				<div class="photo">
+					<img src="./images/polariod-rome.jpg" alt=""width=200 height=200>
+				</div>
+			</div>
+            <div class="sub-container">
+				<div class="photo">
+					<img src="./images/polariod-california.jpg" alt=""width=200 height=200>
+				</div>
+			</div>
+			<div class="sub-container">
+				<div class="photo">
+					<img src="./images/polariod-sky.jpg" alt=""width=200 height=200>
+				</div>
+			</div>
+		</div>
+		 <br>
+		 <br>
+		<!--FOOTER Providing website and copyright and year -->
 		<footer>
 			www.polariodphoto.com &nbsp;|&nbsp;&copy;2019
 		</footer>
+		<!--End of Footer -->
+		
 	</body>
 </html>
