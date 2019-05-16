@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+html {
+	background-color: ivory;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: ivory;
+	color: dimgray;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+body > header {
+	background-color: khaki;
+	border: 5px single darkorange;
+	border-radius: 15px;
+	text-align: center;
+	display: block;	
+	margin: 15px;
+	padding: 15px;
+}
+body > h1 {
+	background-color: none;
+	color: crimson;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS", cursive,sans-serif;
+	font-size: x-large;
+}
+body > h2 {
+	background-color: none;
+	color: lightcoral;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	font-size: large;
+}
+nav ul li {
+	display: inline;
+	float: center;
+	margin-top: 0;
+	margin-right: 25px;
+	padding: 100px;
+	list-style: none;
+	list-style-image: none;
+	text-align: center;
+}
+  ul li:nth-of-type(1) {
+    background-image: url("./images/home-picture.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: inline;
+}
+
+  ul li:nth-of-type(2) {
+    background-image: url("./images/sports-picture.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: inline;
+}
+
+  ul li:nth-of-type(3) {
+    background-image: url("./images/space-photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: inline;
+}
+
+  ul li :nth-of-type(4) {
+    background-image: url("./images/wildlife-photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: inline;
+}
+
+  ul li :nth-of-type(5) {
+    background-image: url("./images/history-picture.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: inline;
+}
+
+hr {
+	border: 1px solid red;
+}
+
+main p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: large;
+	font-weight: normal;
+	text-align: center;
+}
+
+form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 25px 25px;
+    width: 15%;
+    border: 0.5px solid #808080;
+    margin: 2% auto;
+    border-radius: 10px;
+    background: rgb(227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+input[type="text"] {
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #000;
+	padding: 2% 1% 2% 7%;
+	width: 80%;
+	border-top: 1px solid #090B0D;
+	border-right: 2px solid #424549;
+	border-bottom: 2px solid #424549;
+	border-left: 1px solid #090B0D;
+	margin: 10px 1em;
+	border-radius: 7px;
+	background: #fff;
+	box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	font-family: 'Raleway', sans-serif;
+}
+form.space {
+	padding: 20px 20px;
+}
+blockqoute {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: center;
+	margin: 100px;
+	padding: 100px;
+
+}
+div.photo {
+  float: left;
+  margin-left: 30px;
+  width: 12.00%;
+  padding: 5px;
+}
+div.photo::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+	background-color: khaki;
+    color: #000;
+	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
